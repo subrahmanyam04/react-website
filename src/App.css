@@ -1,0 +1,121 @@
+/* @import "~font-awesome/css/font-awesome.css"; */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Link{
+  /* font-size: 14px !important; */
+  font-family: "Sohne", "Helvetica Neue" , Helvetica ,sans-serif !important;
+  
+}
+
+.search{
+  background-color: #f9f9f9 !important;
+}
+
+.bag{
+  background-color: "#ffffff" !important;
+}
+
+.custom-input {
+  box-shadow: 0 2px 0 0 transparent !important; 
+}
+
+.icon:hover {
+  color: black !important;
+}
+
+.section{
+  color: #242424 !important;
+}
+
+.button{
+  background-color: #f2f2f2 !important;
+  border : 1px solid rgba(242,242,242,255) !important;
+}
+
+.h2family{
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif !important;
+  color: #000000 !important;
+}
+
+.p1{
+  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+
+.special{
+  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif !important;;
+}
+
+.bar{
+  background-color: #ffc017;
+}
+
+/* .fixed-content {
+  position: fixed;
+  top: 600px;
+  
+  left: 950px;
+  width: 50%;
+ 
+} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-fs-3 {
+    font-size: 70px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sm-fs-3 {
+    font-size: 90px !important;
+  }
+  .img {
+    width: 320px !important;
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .sm-fs-3 {
+    font-size: 60px !important;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
